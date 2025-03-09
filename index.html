@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/Sem_título-removebg-preview (1).png" type="img/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Participe do sorteio!</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-items">
+            <a href=""><img class="image" src="img/Sem_título-removebg-preview (1).png" alt=""></a>
+            <ul class="options">
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>Skins</li></a>
+                <a href="#"><li>Pacotes</li></a>
+                <a id="lup" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </ul>
+        </div>
+        <div class="main-banner">
+            <h1>Cadastre os seus dados para <br>concorrer a uma skin!</h1>
+            <p>É por tempo limitado!</p>
+        </div>
+    </nav>
+    <main>
+        <form>
+            <div class="formbox">
+                <div class="yourName">
+                    <label for="name">Nome:</label>
+                    <input type="text" name="name" placeholder="Digite seu nome" required>
+                    <label for="secname">Sobrenome:</label>
+                    <input type="text" name="secname" placeholder="Digite seu sobrenome" required>
+                </div>
+                <div class="imaiu">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" placeholder="Digite seu e-mail" required>
+                </div>
+                <div class="cellnumber">
+                    <label for="number">Telefone:</label>
+                    <input type="number" name="number" placeholder="Seu número de telefone" maxlength="11" required>
+                </div>
+                <div class="skin">
+                    <label for="skins">Selecione sua skin</label>
+                    <select name="skins" class="choose" required>
+                        <option value="">Selecione</option>
+                        <option value="yasuo">Yasuo: Lua Sangrenta</option>
+                        <option value="riven">Riven: Coelhinha</option>
+                        <option value="zoe">Zoe: Guardiã Estelar</option>
+                        <option value="jax">Jax: Pescador</option>
+                    </select>
+                </div>
+                <div class="buttons">
+                    <input type="reset" value="Limpar">
+                    <input type="submit" value="Enviar">
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

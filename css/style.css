@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.navbar {
+    height: 600px;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.0)),
+        url(/img/1339765.jpeg);
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+.navbar-items {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.options {
+    display: flex;
+    padding: 1rem;
+    margin-top: 8px;
+}
+
+.options li {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-left: 1px solid #fff;
+    padding-left: 25px;
+    font-size: 22px;
+    list-style: none;
+    color: #fff;
+}
+
+.options li:hover {
+    font-size: 23px;
+}
+
+#lup {
+    font-size: 25px;
+    border-left: 1px solid #fff;
+    color: #fff;
+    margin-top: 2px;
+    padding-left: 25px;
+    margin-right: 1rem;
+    /* border: 1px solid green; */
+    height: 25px;
+}
+
+#lup:hover {
+    font-size: 28px;
+}
+
+a {
+    text-decoration: none;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.image {
+    height: 80px;
+    width: 200px;
+    padding: 5px;
+    display: flex;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.main-banner {
+    color: #fff;
+    display: block;
+    margin-top: 160px;
+    width: 45%;
+}
+
+.main-banner h1 {
+    padding: 5px;
+    font-size: 45px;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+
+.main-banner p {
+    font-size: 20px;
+    margin-left: 65px;
+}
+
+.formbox {
+    width: 40%;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.yourName {
+    padding: 0.8rem;
+    font-size: 20px;
+}
+
+.imaiu {
+    padding: 0.8rem;
+    font-size: 20px;
+}
+
+.cellnumber {
+    padding: 0.8rem;
+    font-size: 20px;
+}
+
+.skin {
+    padding: 0.8rem;
+    font-size: 20px;
+}
+
+.buttons{
+    display: flex;
+    padding: 6px;
+    /* align-items: center; */
+    /* justify-items: center; */
+    justify-content: center;
+}
+
+.buttons input[type="reset"],
+input[type="submit"] {
+    padding: 6px;
+    height: 45px;
+    width: 110px;
+    font-size: 20px;
+    margin: 6px;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: 1px solid black;
+    color: #fff;
+}
+
+.buttons input[type="reset"]:hover,
+input[type="submit"]:hover {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    border: 1px solid rgb(182, 171, 22);
+}
+
+.formbox input[type="text"] {
+    font-size: 20px;
+    width: 36.3%;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 2px;
+    height: 35px;
+    margin-bottom: -6px;
+}
+
+.formbox input[type="email"],
+input[type="number"]
+{
+    font-size: 20px;
+    width: 99.1%;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 2px;
+    height: 35px;
+    margin-top: 0.5rem;
+}
+
+.choose {
+    font-size: 20px;
+    color: #919191;
+    width: 99.8%;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 6px;
+}
+
+.choose:hover {
+    color: #000;
+}
+
+@media (max-width: 1451px) {
+    .formbox {
+        width: 60%;
+    }
+
+    .formbox input[type="text"] {
+        width: 38%;
+    }
+
+    .navbar {
+        background-position: center;
+    }
+
+}
+
+@media (max-width: 1116px) {
+    .navbar {
+        background-size: 1400px;
+    }
+
+    .main-banner h1 {
+        font-size: 33px;
+    }
+
+    .formbox {
+        width: 60%;
+    }
+
+    .formbox input[type="text"] {
+        width: 33.3%;
+    }
+}
+
+@media (max-width: 871px) {
+    .navbar {
+        background-size: 1000px;
+    }
+
+    .main-banner h1 {
+        font-size: 28px;
+    }
+
+    .main-banner p {
+        font-size: 18px;
+    }
+
+    .formbox {
+        width: 80%;
+    }
+}
+
+@media (max-width: 450px) {
+    .navbar {
+        background-size: 1200px;
+        width: 159%;
+        background-position: top;
+    }
+
+    .formbox {
+        width: 140%;
+    }
+
+    .formbox input[type="text"] {
+        width: 32.6%;
+    }
+
+    .main-banner h1 {
+        font-size: 26px;
+    }
+
+    .main-banner p {
+        font-size: 16px;
+    }
+
+    .image {
+        width: 130px;
+        height: 60px;
+        margin-top: 3px;
+    }
+
+}
