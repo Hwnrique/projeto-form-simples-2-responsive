@@ -151,7 +151,7 @@ input[type="submit"]:hover {
 
 .formbox input[type="text"] {
     font-size: 20px;
-    width: 36.3%;
+    min-width: 30vw;
     border: 1px solid #000;
     border-radius: 3px;
     padding: 2px;
